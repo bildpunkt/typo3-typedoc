@@ -1,5 +1,3 @@
-# TYPO3 TypeScript Documentation (unofficial)
-
 This is a rendered documentation of the TypeScript code provided in the TYPO3 core!
 
 The core contains a lot of JavaScript functionality that can be used in custom backend modules and other places, but it is barely documented (on [docs.typo3.org](https://docs.typo3.org)), but it has documentation in the code.

@@ -1,4 +1,5 @@
 {
+  "name": "TYPO3 TypeScript Documentation (unofficial)",
   "tsconfig": "typo3/Build/tsconfig.json",
   "entryPoints": ["typo3/Build/Sources/TypeScript/core/", "typo3/Build/Sources/TypeScript/backend/"],
   "entryPointStrategy": "expand",
