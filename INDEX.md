@@ -6,7 +6,10 @@ The core contains a lot of JavaScript functionality that can be used in custom b
 
 This website is a slightly (automagically) modified version of the code documentation rendered using [TypeDoc](https://typedoc.org/).
 
-_This can be compared to what [api.typo3.org](https://api.typo3.org/), providing a browsable variant of the PHP doc-comments._
+_This can be compared to [api.typo3.org](https://api.typo3.org/), which is providing a browsable variant of the PHP doc-comments._
+
+All code and scripts used to generate this documentation can be found on GitHub!  
+https://github.com/pixeldesu/typo3-typedoc
 
 ----
 
