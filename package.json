@@ -1,0 +1,26 @@
+{
+  "name": "typo3-typedoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare-scripts": "npm run t3:pull-submodule && npm run t3:reset-changes && npm run t3:install-deps && npm run t3:replace-module-comment && npm run t3:add-summary-section",
+    "t3:pull-submodule": "git submodule update --init",
+    "t3:install-deps": "npx yarn --cwd typo3/Build/ install",
+    "t3:replace-module-comment": "node scripts/replaceModuleComment.js",
+    "t3:add-summary-section": "node scripts/addSummarySection.js",
+    "t3:reset-changes": "cd typo3 && git reset --hard HEAD",
+    "start": "npm run prepare-scripts && typedoc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "replace-in-files": "^3.0.0",
+    "typedoc": "^0.22.10",
+    "typedoc-plugin-merge-modules": "^3.1.0",
+    "typedoc-plugin-missing-exports": "^0.22.6",
+    "typedoc-plugin-rename-defaults": "^0.4.0",
+    "typescript": "~4.0.3"
+  }
+}

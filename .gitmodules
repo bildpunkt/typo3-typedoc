@@ -1,0 +1,3 @@
+[submodule "typo3"]
+	path = typo3
+	url = git@github.com:TYPO3/typo3.git

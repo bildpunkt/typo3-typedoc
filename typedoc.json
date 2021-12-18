@@ -1,0 +1,10 @@
+{
+  "tsconfig": "typo3/Build/tsconfig.json",
+  "entryPoints": ["typo3/Build/Sources/TypeScript/core/", "typo3/Build/Sources/TypeScript/backend/"],
+  "entryPointStrategy": "expand",
+  "exclude": ["typo3/Build/Sources/TypeScript/!(core|backend)/**/*.ts", "typo3/Build/node_modules/**/*.ts"],
+  "excludeInternal": true,
+  "excludeExternals": true,
+  "mergeModulesMergeMode": "project",
+  "readme": "./INDEX.md"
+}
