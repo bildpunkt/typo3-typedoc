@@ -7,5 +7,6 @@
   "excludeInternal": true,
   "excludeExternals": true,
   "mergeModulesMergeMode": "project",
-  "readme": "./INDEX.md"
+  "readme": "./INDEX.md",
+  "customDescription": "Rendered documentation of the comments provided in the TYPO3 Core TypeScript code"
 }
